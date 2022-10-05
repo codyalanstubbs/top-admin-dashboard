@@ -22,8 +22,17 @@ svg {
     grid-column: 1;
     grid-row: 1 / -1;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+
     color: white;
     background-color: #0088ff;
+}
+
+.navbar > * {
+    margin-left: 25px;
 }
 
 .logo,
@@ -32,6 +41,7 @@ svg {
     grid-template-columns: auto 1fr;
     gap: 10px;
     align-items: center;
+    align-self: start;
 }
 
 
