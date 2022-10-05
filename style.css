@@ -14,7 +14,7 @@ ul {
     padding: 0;
 }
 
-svg {
+svg.icon {
     fill: white;
 }
 
@@ -44,12 +44,15 @@ svg {
     align-self: start;
 }
 
-
 .menu {
     grid-column: 2;
     grid-row: 1;
 
     background-color: white;  
+}
+
+.search-btn {
+    fill: #333333;
 }
 
 .content {
