@@ -1,5 +1,37 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 4fr; 
+
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.navbar {
+    grid-column: 1;
+    grid-row: 1 / -1;
+
+    color: white;
+    background-color: #0088ff;
+}
+
+.menu {
+    grid-column: 2;
+    grid-row: 1;
+
+    background-color: white;  
+}
+
+.content {
+    grid-column: 2;
+    grid-row: 2;
+
+    background-color: lightgrey;
 }
