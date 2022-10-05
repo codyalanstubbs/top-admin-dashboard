@@ -48,6 +48,11 @@ svg.icon {
     align-self: start;
 }
 
+.logo h1,
+.nav-item h2 {
+    font-weight: normal;
+}
+
 .menu {
     grid-column: 2;
     grid-row: 1;
@@ -92,7 +97,17 @@ svg.icon {
     grid-auto-flow: column;
     align-items: center;
     gap: 50px;
+}
 
+.menu-btn {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #0088ff;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
 }
 
 .menu-bottom-left {
