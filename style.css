@@ -114,6 +114,12 @@ svg.icon {
     display: flex;
 }
 
+.greeting-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .search-btn {
     fill: #333333;
 }
@@ -214,7 +220,8 @@ svg.icon {
 
 .trender-text>*,
 .announcement>*,
-.project-text>* {
+.project-text>*,
+.greeting-box>* {
     margin: 0;
     padding: 0;
 }
