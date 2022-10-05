@@ -114,12 +114,16 @@ svg.icon {
     display: flex;
 }
 
-.menut-top-left {
-    align-items: center;
-}
-
 .search-btn {
     fill: #333333;
+}
+
+#search-bar {
+    background-color: rgb(229, 229, 229);
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    padding-left: 20px;
 }
 
 .content {
