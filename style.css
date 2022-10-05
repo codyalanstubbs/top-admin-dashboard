@@ -14,6 +14,10 @@ ul {
     padding: 0;
 }
 
+svg {
+    fill: white;
+}
+
 .navbar {
     grid-column: 1;
     grid-row: 1 / -1;
@@ -21,6 +25,15 @@ ul {
     color: white;
     background-color: #0088ff;
 }
+
+.logo,
+.nav-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
 
 .menu {
     grid-column: 2;
