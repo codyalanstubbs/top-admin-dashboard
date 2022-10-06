@@ -19,6 +19,8 @@ ul {
 }
 
 svg.icon {
+    height: 30px;
+    width: 30px;
     fill: white;
 }
 
@@ -46,6 +48,10 @@ svg.icon {
     gap: 10px;
     align-items: center;
     align-self: start;
+}
+
+.logo {
+    margin-top: 25px;
 }
 
 .logo h1,
@@ -112,6 +118,7 @@ svg.icon {
 
 .menu-bottom-left {
     display: flex;
+    gap: 20px;
 }
 
 .greeting-box {
@@ -121,7 +128,14 @@ svg.icon {
 }
 
 .search-btn {
+    height: 30px;
+    width: 30px;
     fill: #333333;
+}
+
+.notifications {
+    height: 30px;
+    width: 30px;
 }
 
 #search-bar {
@@ -230,7 +244,7 @@ p {
     color: grey;
 }
 
-img {
+.trendy-user > img {
     border-radius: 50%;
     border: 3px solid black;
 }
