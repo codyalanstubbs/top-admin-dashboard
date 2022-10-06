@@ -179,6 +179,14 @@ svg.icon {
 
 .project-buttons {
     justify-self: end;
+    display: flex;
+    gap: 50px;
+}
+
+.tile-btn {
+    height: 30px;
+    width: 30px;
+    fill: #333333; 
 }
 
 .sidebar-content {
